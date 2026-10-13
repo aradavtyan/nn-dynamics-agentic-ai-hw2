@@ -1,0 +1,681 @@
+{
+  "mocked_llm": true,
+  "status": "completed",
+  "error": null,
+  "final_report": {
+    "status": "completed",
+    "source": "FocusingSession.call output (validated measurements); assembled by the program",
+    "selection_rule": "completed experiment with the highest validated final enhancement mean",
+    "selected_run_id": "demo_call02",
+    "selected": {
+      "run_name": "demo_call02",
+      "arguments": {
+        "grouping_factor": 1,
+        "focus_row": 15,
+        "focus_col": 15,
+        "focus_height": 2,
+        "focus_width": 2,
+        "background_gap": 2,
+        "background_width": 3,
+        "iterations": 1200,
+        "flips_per_proposal": 1,
+        "averaging": 1,
+        "validation_count": 10,
+        "seed": 2,
+        "max_acquisitions": 1300
+      },
+      "validated_initial_enhancement_mean": 0.724450050234878,
+      "validated_initial_enhancement_std": 0.013301408398156252,
+      "validated_final_enhancement_mean": 70.78370397897507,
+      "validated_final_enhancement_std": 3.4616146349225354,
+      "validation_count": 10,
+      "enhancement_gain": 97.70681078153821,
+      "focus_intensity_gain": 5.736690844179352,
+      "background_suppression_factor": 16.99422210068924,
+      "share_of_log_gain_from_focus_brightening": 0.38143572642674267,
+      "share_of_log_gain_from_background_suppression": 0.6185642735732573,
+      "notes": [],
+      "camera_acquisitions": 1221,
+      "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+      "artifacts": {
+        "settings": "results/offline_demo/artifacts/demo_call02/settings.json",
+        "result": "results/offline_demo/artifacts/demo_call02/result.json",
+        "initial_camera_png": "results/offline_demo/artifacts/demo_call02/initial_camera.png",
+        "final_camera_png": "results/offline_demo/artifacts/demo_call02/final_camera.png",
+        "enhancement_history_png": "results/offline_demo/artifacts/demo_call02/enhancement_history.png",
+        "final_dmd_pattern_png": "results/offline_demo/artifacts/demo_call02/final_dmd_pattern.png",
+        "history_npz": "results/offline_demo/artifacts/demo_call02/history.npz"
+      }
+    },
+    "completed_experiments": [
+      {
+        "run_name": "demo_call01",
+        "arguments": {
+          "grouping_factor": 2,
+          "focus_row": 15,
+          "focus_col": 15,
+          "focus_height": 2,
+          "focus_width": 2,
+          "background_gap": 2,
+          "background_width": 3,
+          "iterations": 600,
+          "flips_per_proposal": 1,
+          "averaging": 1,
+          "validation_count": 10,
+          "seed": 1,
+          "max_acquisitions": 700
+        },
+        "validated_initial_enhancement_mean": 0.6045080914743253,
+        "validated_initial_enhancement_std": 0.013428597464980041,
+        "validated_final_enhancement_mean": 13.77217682053671,
+        "validated_final_enhancement_std": 0.4076437423389213,
+        "validation_count": 10,
+        "enhancement_gain": 22.782452401832977,
+        "focus_intensity_gain": 3.881947595342312,
+        "background_suppression_factor": 5.864418794947845,
+        "share_of_log_gain_from_focus_brightening": 0.4339944537824062,
+        "share_of_log_gain_from_background_suppression": 0.5660055462175937,
+        "notes": [],
+        "camera_acquisitions": 621,
+        "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+        "artifacts": {
+          "settings": "results/offline_demo/artifacts/demo_call01/settings.json",
+          "result": "results/offline_demo/artifacts/demo_call01/result.json",
+          "initial_camera_png": "results/offline_demo/artifacts/demo_call01/initial_camera.png",
+          "final_camera_png": "results/offline_demo/artifacts/demo_call01/final_camera.png",
+          "enhancement_history_png": "results/offline_demo/artifacts/demo_call01/enhancement_history.png",
+          "final_dmd_pattern_png": "results/offline_demo/artifacts/demo_call01/final_dmd_pattern.png",
+          "history_npz": "results/offline_demo/artifacts/demo_call01/history.npz"
+        }
+      },
+      {
+        "run_name": "demo_call02",
+        "arguments": {
+          "grouping_factor": 1,
+          "focus_row": 15,
+          "focus_col": 15,
+          "focus_height": 2,
+          "focus_width": 2,
+          "background_gap": 2,
+          "background_width": 3,
+          "iterations": 1200,
+          "flips_per_proposal": 1,
+          "averaging": 1,
+          "validation_count": 10,
+          "seed": 2,
+          "max_acquisitions": 1300
+        },
+        "validated_initial_enhancement_mean": 0.724450050234878,
+        "validated_initial_enhancement_std": 0.013301408398156252,
+        "validated_final_enhancement_mean": 70.78370397897507,
+        "validated_final_enhancement_std": 3.4616146349225354,
+        "validation_count": 10,
+        "enhancement_gain": 97.70681078153821,
+        "focus_intensity_gain": 5.736690844179352,
+        "background_suppression_factor": 16.99422210068924,
+        "share_of_log_gain_from_focus_brightening": 0.38143572642674267,
+        "share_of_log_gain_from_background_suppression": 0.6185642735732573,
+        "notes": [],
+        "camera_acquisitions": 1221,
+        "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+        "artifacts": {
+          "settings": "results/offline_demo/artifacts/demo_call02/settings.json",
+          "result": "results/offline_demo/artifacts/demo_call02/result.json",
+          "initial_camera_png": "results/offline_demo/artifacts/demo_call02/initial_camera.png",
+          "final_camera_png": "results/offline_demo/artifacts/demo_call02/final_camera.png",
+          "enhancement_history_png": "results/offline_demo/artifacts/demo_call02/enhancement_history.png",
+          "final_dmd_pattern_png": "results/offline_demo/artifacts/demo_call02/final_dmd_pattern.png",
+          "history_npz": "results/offline_demo/artifacts/demo_call02/history.npz"
+        }
+      }
+    ],
+    "tool_calls": 2,
+    "total_camera_acquisitions": 1842,
+    "limitations": [
+      "Simulated bench only: one fixed random complex Gaussian transmission matrix, a binary amplitude DMD and a shot/read-noise camera model; no real optics or hardware were used.",
+      "Enhancement is <I>_F / <I>_B against the proximal background strips chosen in the experiment settings, not against the whole camera frame.",
+      "Enhancement gain is a contrast improvement; it is not an increase of the focus intensity. The absolute brightening of the focus is the separate focus_intensity_gain, and the rest of the contrast improvement comes from suppressing the local background.",
+      "The tool does not test whether the focus is the brightest point of the camera frame; no such claim is made.",
+      "Values are means of the tool's independent validation measurements (std reported); the noisy search maxima are biased upward and are not reported as results.",
+      "The reported experiment was selected as the highest validated final enhancement among 2 completed experiments, which slightly favours a lucky validation set."
+    ],
+    "orchestrator_reason": "[mocked] two completed experiments on the same medium",
+    "message": "FINAL REPORT (values from the focusing tool's independent validation measurements; simulated bench only)\nSelected experiment: run_id=demo_call02 (completed experiment with the highest validated final enhancement mean; 2 completed of 2 tool calls).\nSettings: {\"averaging\": 1, \"background_gap\": 2, \"background_width\": 3, \"flips_per_proposal\": 1, \"focus_col\": 15, \"focus_height\": 2, \"focus_row\": 15, \"focus_width\": 2, \"grouping_factor\": 1, \"iterations\": 1200, \"max_acquisitions\": 1300, \"seed\": 2, \"validation_count\": 10}\nValidated enhancement: initial 0.72445 (std 0.0133014) -> final 70.7837 (std 3.46161), 10 validation measurements each.\nEnhancement gain (local contrast): 97.7068x.\nFocus intensity gain (absolute brightening of the focus): 5.73669x.\nBackground suppression factor: 16.9942x; share of log(enhancement gain) from focus brightening 38.1%, from background suppression 61.9%.\nCamera acquisitions: 1221 for this experiment, 1842 in the whole run.\nArtifacts: results/offline_demo/artifacts/demo_call02/result.json (and 6 more in results/offline_demo/artifacts/demo_call02)\nLimitations:\n- Simulated bench only: one fixed random complex Gaussian transmission matrix, a binary amplitude DMD and a shot/read-noise camera model; no real optics or hardware were used.\n- Enhancement is <I>_F / <I>_B against the proximal background strips chosen in the experiment settings, not against the whole camera frame.\n- Enhancement gain is a contrast improvement; it is not an increase of the focus intensity. The absolute brightening of the focus is the separate focus_intensity_gain, and the rest of the contrast improvement comes from suppressing the local background.\n- The tool does not test whether the focus is the brightest point of the camera frame; no such claim is made.\n- Values are means of the tool's independent validation measurements (std reported); the noisy search maxima are biased upward and are not reported as results.\n- The reported experiment was selected as the highest validated final enhancement among 2 completed experiments, which slightly favours a lucky validation set."
+  },
+  "partial_report": null,
+  "dialogue": [
+    {
+      "role": "user",
+      "text": "Focus the beam through the simulated scattering medium."
+    },
+    {
+      "role": "orchestrator",
+      "text": "{\"next_role\": \"scientist\", \"instruction\": \"Propose a first focusing experiment for this session.\", \"reason\": \"[mocked] a plan is needed before measuring\"}"
+    },
+    {
+      "role": "scientist",
+      "text": "[mocked scientist] Start with grouping factor 2 (64 macropixels), a central 2x2 focus, background strips 2 px away and 3 px wide, single flips, 600 iterations, 10 validation measurements. Then compare grouping factor 1. Report enhancement gain and focus intensity gain separately."
+    },
+    {
+      "role": "orchestrator",
+      "text": "{\"next_role\": \"executor\", \"instruction\": \"Run the scientist's first experiment.\", \"reason\": \"[mocked] a plan exists\"}"
+    },
+    {
+      "role": "executor",
+      "text": "EXPERIMENT_COMPLETED\ntool=FocusingSession.call (simulated bench) success=True\nrun_id=demo_call01\nsettings={\"averaging\": 1, \"background_gap\": 2, \"background_width\": 3, \"flips_per_proposal\": 1, \"focus_col\": 15, \"focus_height\": 2, \"focus_row\": 15, \"focus_width\": 2, \"grouping_factor\": 2, \"iterations\": 600, \"max_acquisitions\": 700, \"seed\": 1, \"validation_count\": 10}\nexecutor_rationale=[mocked] corrected: seed added\nvalidated_initial_enhancement=0.604508 (std 0.0134286, n=10)\nvalidated_final_enhancement=13.7722 (std 0.407644, n=10)\nenhancement_gain=22.7825  (local contrast vs. background strips)\nfocus_intensity_gain=3.88195  (absolute brightening of the focus)\nbackground_suppression_factor=5.86442\nlog_gain_share_focus/background=0.434/0.566\ncamera_acquisitions=621 (run total 621)\ntransmission_fingerprint=022370232fb2178e...\nartifacts:\n  settings=results/offline_demo/artifacts/demo_call01/settings.json\n  result=results/offline_demo/artifacts/demo_call01/result.json\n  initial_camera_png=results/offline_demo/artifacts/demo_call01/initial_camera.png\n  final_camera_png=results/offline_demo/artifacts/demo_call01/final_camera.png\n  enhancement_history_png=results/offline_demo/artifacts/demo_call01/enhancement_history.png\n  final_dmd_pattern_png=results/offline_demo/artifacts/demo_call01/final_dmd_pattern.png\n  history_npz=results/offline_demo/artifacts/demo_call01/history.npz\nSearch maxima are noisy and biased upward and are not reported here.\nearlier problems in this turn:\n  proposal 1: rejected before the tool call: missing argument(s): ['seed']"
+    },
+    {
+      "role": "orchestrator",
+      "text": "{\"next_role\": \"executor\", \"instruction\": \"Try finer control: grouping factor 1 with more iterations.\", \"reason\": \"[mocked] compare a finer macropixel grid on the same medium\"}"
+    },
+    {
+      "role": "executor",
+      "text": "EXPERIMENT_COMPLETED\ntool=FocusingSession.call (simulated bench) success=True\nrun_id=demo_call02\nsettings={\"averaging\": 1, \"background_gap\": 2, \"background_width\": 3, \"flips_per_proposal\": 1, \"focus_col\": 15, \"focus_height\": 2, \"focus_row\": 15, \"focus_width\": 2, \"grouping_factor\": 1, \"iterations\": 1200, \"max_acquisitions\": 1300, \"seed\": 2, \"validation_count\": 10}\nexecutor_rationale=[mocked] 256 macropixels, more iterations\nvalidated_initial_enhancement=0.72445 (std 0.0133014, n=10)\nvalidated_final_enhancement=70.7837 (std 3.46161, n=10)\nenhancement_gain=97.7068  (local contrast vs. background strips)\nfocus_intensity_gain=5.73669  (absolute brightening of the focus)\nbackground_suppression_factor=16.9942\nlog_gain_share_focus/background=0.381/0.619\ncamera_acquisitions=1221 (run total 1842)\ntransmission_fingerprint=022370232fb2178e...\nartifacts:\n  settings=results/offline_demo/artifacts/demo_call02/settings.json\n  result=results/offline_demo/artifacts/demo_call02/result.json\n  initial_camera_png=results/offline_demo/artifacts/demo_call02/initial_camera.png\n  final_camera_png=results/offline_demo/artifacts/demo_call02/final_camera.png\n  enhancement_history_png=results/offline_demo/artifacts/demo_call02/enhancement_history.png\n  final_dmd_pattern_png=results/offline_demo/artifacts/demo_call02/final_dmd_pattern.png\n  history_npz=results/offline_demo/artifacts/demo_call02/history.npz\nSearch maxima are noisy and biased upward and are not reported here."
+    },
+    {
+      "role": "orchestrator",
+      "text": "{\"next_role\": \"finish\", \"instruction\": \"Report the validated results.\", \"reason\": \"[mocked] two completed experiments on the same medium\"}"
+    }
+  ],
+  "experiments": [
+    {
+      "invocation": 1,
+      "executor_turn": 1,
+      "orchestrator_decision": 2,
+      "run_name": "demo_call01",
+      "arguments": {
+        "grouping_factor": 2,
+        "focus_row": 15,
+        "focus_col": 15,
+        "focus_height": 2,
+        "focus_width": 2,
+        "background_gap": 2,
+        "background_width": 3,
+        "iterations": 600,
+        "flips_per_proposal": 1,
+        "averaging": 1,
+        "validation_count": 10,
+        "seed": 1,
+        "max_acquisitions": 700
+      },
+      "rationale": "[mocked] corrected: seed added",
+      "status": "completed",
+      "error": null,
+      "acquisitions": 621,
+      "result": {
+        "ok": true,
+        "run_name": "demo_call01",
+        "run_dir": "results/offline_demo/artifacts/demo_call01",
+        "session": {
+          "dmd_shape": [
+            16,
+            16
+          ],
+          "camera_shape": [
+            32,
+            32
+          ],
+          "medium_seed": 7,
+          "noise": {
+            "enabled": true,
+            "photons_per_unit": 1000.0,
+            "read_noise_std": 0.01
+          },
+          "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+          "acquisition_limit_per_call": 2000,
+          "camera_acquisitions_so_far": 621,
+          "artifact_root": "results/offline_demo/artifacts",
+          "valid_grouping_factors": [
+            1,
+            2,
+            4,
+            8,
+            16
+          ]
+        },
+        "arguments": {
+          "grouping_factor": 2,
+          "focus_row": 15,
+          "focus_col": 15,
+          "focus_height": 2,
+          "focus_width": 2,
+          "background_gap": 2,
+          "background_width": 3,
+          "iterations": 600,
+          "flips_per_proposal": 1,
+          "averaging": 1,
+          "validation_count": 10,
+          "seed": 1,
+          "max_acquisitions": 700
+        },
+        "regions": {
+          "focus": {
+            "row_start": 15,
+            "row_stop": 17,
+            "col_start": 15,
+            "col_stop": 17,
+            "name": "focus"
+          },
+          "backgrounds": [
+            {
+              "row_start": 10,
+              "row_stop": 13,
+              "col_start": 15,
+              "col_stop": 17,
+              "name": "top"
+            },
+            {
+              "row_start": 19,
+              "row_stop": 22,
+              "col_start": 15,
+              "col_stop": 17,
+              "name": "bottom"
+            },
+            {
+              "row_start": 15,
+              "row_stop": 17,
+              "col_start": 10,
+              "col_stop": 13,
+              "name": "left"
+            },
+            {
+              "row_start": 15,
+              "row_stop": 17,
+              "col_start": 19,
+              "col_stop": 22,
+              "name": "right"
+            }
+          ]
+        },
+        "objective": {
+          "definition": "enhancement = <I>_F / max(<I>_B, floor); <I>_B pixel-weighted over all background strips; floor = 0.05 x <I>_B of the initial search measurement",
+          "background_floor": 0.02107968446566731
+        },
+        "validated": {
+          "initial": {
+            "enhancement_mean": 0.6045080914743253,
+            "enhancement_std": 0.013428597464980041,
+            "enhancement_values": [
+              0.6278521690302089,
+              0.5883011139587637,
+              0.6015666098887629,
+              0.6028166439004754,
+              0.6108754739530887,
+              0.6078706988755682,
+              0.6133775799102816,
+              0.5944418678039093,
+              0.6175822154962164,
+              0.5803965419259778
+            ],
+            "focus_mean_intensity": 0.25064742661844375,
+            "background_mean_intensity": 0.4146613525400254,
+            "background_region_mean_intensities": [
+              0.445632815378958,
+              0.2860885388726933,
+              0.20318198989281844,
+              0.7237420660156318
+            ],
+            "background_floor_active": false
+          },
+          "final": {
+            "enhancement_mean": 13.77217682053671,
+            "enhancement_std": 0.4076437423389213,
+            "enhancement_values": [
+              13.34917508617915,
+              14.24475590562985,
+              14.18673465322067,
+              14.070410700970328,
+              13.349374657401592,
+              14.11789266174146,
+              13.370649920331276,
+              14.257628479445161,
+              13.3256750192891,
+              13.44947112115852
+            ],
+            "focus_mean_intensity": 0.9730001750402063,
+            "background_mean_intensity": 0.07070800484052285,
+            "background_region_mean_intensities": [
+              0.08214840801124954,
+              0.06330274110228105,
+              0.04875510896837217,
+              0.08862576128018863
+            ],
+            "background_floor_active": false
+          },
+          "enhancement_gain": 22.782452401832977,
+          "focus_intensity_gain": 3.881947595342312,
+          "background_suppression_factor": 5.864418794947845,
+          "decomposition": {
+            "basis": "mean validation images: gain = focus_intensity_gain * background_suppression_factor",
+            "image_enhancement_gain": 22.765366439128048,
+            "share_of_log_gain_from_focus_brightening": 0.4339944537824062,
+            "share_of_log_gain_from_background_suppression": 0.5660055462175937
+          },
+          "notes": []
+        },
+        "search": {
+          "note": "single noisy measurements that won comparisons; biased upward; not final results",
+          "initial_enhancement_single_measurement": 0.6339237238930714,
+          "best_observed_enhancement": 14.745888653185334,
+          "final_accepted_enhancement": 14.745888653185334,
+          "accepted_proposals": 47,
+          "iterations": 600
+        },
+        "acquisitions": {
+          "search": 601,
+          "validation": 20,
+          "total": 621,
+          "planned": 621,
+          "frames_per_measurement": 1,
+          "counted_by_bench": 621
+        },
+        "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+        "runtime_s": 2.5750611599996773,
+        "artifacts": {
+          "settings": "results/offline_demo/artifacts/demo_call01/settings.json",
+          "result": "results/offline_demo/artifacts/demo_call01/result.json",
+          "initial_camera_png": "results/offline_demo/artifacts/demo_call01/initial_camera.png",
+          "final_camera_png": "results/offline_demo/artifacts/demo_call01/final_camera.png",
+          "enhancement_history_png": "results/offline_demo/artifacts/demo_call01/enhancement_history.png",
+          "final_dmd_pattern_png": "results/offline_demo/artifacts/demo_call01/final_dmd_pattern.png",
+          "history_npz": "results/offline_demo/artifacts/demo_call01/history.npz"
+        }
+      },
+      "summary": {
+        "run_name": "demo_call01",
+        "arguments": {
+          "grouping_factor": 2,
+          "focus_row": 15,
+          "focus_col": 15,
+          "focus_height": 2,
+          "focus_width": 2,
+          "background_gap": 2,
+          "background_width": 3,
+          "iterations": 600,
+          "flips_per_proposal": 1,
+          "averaging": 1,
+          "validation_count": 10,
+          "seed": 1,
+          "max_acquisitions": 700
+        },
+        "validated_initial_enhancement_mean": 0.6045080914743253,
+        "validated_initial_enhancement_std": 0.013428597464980041,
+        "validated_final_enhancement_mean": 13.77217682053671,
+        "validated_final_enhancement_std": 0.4076437423389213,
+        "validation_count": 10,
+        "enhancement_gain": 22.782452401832977,
+        "focus_intensity_gain": 3.881947595342312,
+        "background_suppression_factor": 5.864418794947845,
+        "share_of_log_gain_from_focus_brightening": 0.4339944537824062,
+        "share_of_log_gain_from_background_suppression": 0.5660055462175937,
+        "notes": [],
+        "camera_acquisitions": 621,
+        "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+        "artifacts": {
+          "settings": "results/offline_demo/artifacts/demo_call01/settings.json",
+          "result": "results/offline_demo/artifacts/demo_call01/result.json",
+          "initial_camera_png": "results/offline_demo/artifacts/demo_call01/initial_camera.png",
+          "final_camera_png": "results/offline_demo/artifacts/demo_call01/final_camera.png",
+          "enhancement_history_png": "results/offline_demo/artifacts/demo_call01/enhancement_history.png",
+          "final_dmd_pattern_png": "results/offline_demo/artifacts/demo_call01/final_dmd_pattern.png",
+          "history_npz": "results/offline_demo/artifacts/demo_call01/history.npz"
+        }
+      }
+    },
+    {
+      "invocation": 2,
+      "executor_turn": 2,
+      "orchestrator_decision": 3,
+      "run_name": "demo_call02",
+      "arguments": {
+        "grouping_factor": 1,
+        "focus_row": 15,
+        "focus_col": 15,
+        "focus_height": 2,
+        "focus_width": 2,
+        "background_gap": 2,
+        "background_width": 3,
+        "iterations": 1200,
+        "flips_per_proposal": 1,
+        "averaging": 1,
+        "validation_count": 10,
+        "seed": 2,
+        "max_acquisitions": 1300
+      },
+      "rationale": "[mocked] 256 macropixels, more iterations",
+      "status": "completed",
+      "error": null,
+      "acquisitions": 1221,
+      "result": {
+        "ok": true,
+        "run_name": "demo_call02",
+        "run_dir": "results/offline_demo/artifacts/demo_call02",
+        "session": {
+          "dmd_shape": [
+            16,
+            16
+          ],
+          "camera_shape": [
+            32,
+            32
+          ],
+          "medium_seed": 7,
+          "noise": {
+            "enabled": true,
+            "photons_per_unit": 1000.0,
+            "read_noise_std": 0.01
+          },
+          "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+          "acquisition_limit_per_call": 2000,
+          "camera_acquisitions_so_far": 1842,
+          "artifact_root": "results/offline_demo/artifacts",
+          "valid_grouping_factors": [
+            1,
+            2,
+            4,
+            8,
+            16
+          ]
+        },
+        "arguments": {
+          "grouping_factor": 1,
+          "focus_row": 15,
+          "focus_col": 15,
+          "focus_height": 2,
+          "focus_width": 2,
+          "background_gap": 2,
+          "background_width": 3,
+          "iterations": 1200,
+          "flips_per_proposal": 1,
+          "averaging": 1,
+          "validation_count": 10,
+          "seed": 2,
+          "max_acquisitions": 1300
+        },
+        "regions": {
+          "focus": {
+            "row_start": 15,
+            "row_stop": 17,
+            "col_start": 15,
+            "col_stop": 17,
+            "name": "focus"
+          },
+          "backgrounds": [
+            {
+              "row_start": 10,
+              "row_stop": 13,
+              "col_start": 15,
+              "col_stop": 17,
+              "name": "top"
+            },
+            {
+              "row_start": 19,
+              "row_stop": 22,
+              "col_start": 15,
+              "col_stop": 17,
+              "name": "bottom"
+            },
+            {
+              "row_start": 15,
+              "row_stop": 17,
+              "col_start": 10,
+              "col_stop": 13,
+              "name": "left"
+            },
+            {
+              "row_start": 15,
+              "row_stop": 17,
+              "col_start": 19,
+              "col_stop": 22,
+              "name": "right"
+            }
+          ]
+        },
+        "objective": {
+          "definition": "enhancement = <I>_F / max(<I>_B, floor); <I>_B pixel-weighted over all background strips; floor = 0.05 x <I>_B of the initial search measurement",
+          "background_floor": 0.027422389902609697
+        },
+        "validated": {
+          "initial": {
+            "enhancement_mean": 0.724450050234878,
+            "enhancement_std": 0.013301408398156252,
+            "enhancement_values": [
+              0.7296601876235912,
+              0.7492220710547949,
+              0.7406183429173133,
+              0.7333696305422864,
+              0.7056801838950583,
+              0.7285323190018272,
+              0.7130823702245753,
+              0.7137954712735195,
+              0.7171723950993569,
+              0.7133675307164556
+            ],
+            "focus_mean_intensity": 0.3924043102280169,
+            "background_mean_intensity": 0.541695905922898,
+            "background_region_mean_intensities": [
+              0.6096574466734513,
+              0.5849811658277299,
+              0.3405313237272381,
+              0.6316136874631728
+            ],
+            "background_floor_active": false
+          },
+          "final": {
+            "enhancement_mean": 70.78370397897507,
+            "enhancement_std": 3.4616146349225354,
+            "enhancement_values": [
+              70.24411545564566,
+              71.07582226285678,
+              71.98039619855851,
+              78.17203155706028,
+              70.87229511434627,
+              66.25438674230558,
+              71.63515370338091,
+              73.64334394653397,
+              65.38811747991161,
+              68.57137732915109
+            ],
+            "focus_mean_intensity": 2.2511022137015786,
+            "background_mean_intensity": 0.03187529871702267,
+            "background_region_mean_intensities": [
+              0.04161060338053319,
+              0.039221713348831816,
+              0.026639400566649513,
+              0.02002947757207616
+            ],
+            "background_floor_active": false
+          },
+          "enhancement_gain": 97.70681078153821,
+          "focus_intensity_gain": 5.736690844179352,
+          "background_suppression_factor": 16.99422210068924,
+          "decomposition": {
+            "basis": "mean validation images: gain = focus_intensity_gain * background_suppression_factor",
+            "image_enhancement_gain": 97.49059832897434,
+            "share_of_log_gain_from_focus_brightening": 0.38143572642674267,
+            "share_of_log_gain_from_background_suppression": 0.6185642735732573
+          },
+          "notes": []
+        },
+        "search": {
+          "note": "single noisy measurements that won comparisons; biased upward; not final results",
+          "initial_enhancement_single_measurement": 0.7159306883992287,
+          "best_observed_enhancement": 82.26861453950146,
+          "final_accepted_enhancement": 82.26861453950146,
+          "accepted_proposals": 115,
+          "iterations": 1200
+        },
+        "acquisitions": {
+          "search": 1201,
+          "validation": 20,
+          "total": 1221,
+          "planned": 1221,
+          "frames_per_measurement": 1,
+          "counted_by_bench": 1221
+        },
+        "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+        "runtime_s": 9.496969407000506,
+        "artifacts": {
+          "settings": "results/offline_demo/artifacts/demo_call02/settings.json",
+          "result": "results/offline_demo/artifacts/demo_call02/result.json",
+          "initial_camera_png": "results/offline_demo/artifacts/demo_call02/initial_camera.png",
+          "final_camera_png": "results/offline_demo/artifacts/demo_call02/final_camera.png",
+          "enhancement_history_png": "results/offline_demo/artifacts/demo_call02/enhancement_history.png",
+          "final_dmd_pattern_png": "results/offline_demo/artifacts/demo_call02/final_dmd_pattern.png",
+          "history_npz": "results/offline_demo/artifacts/demo_call02/history.npz"
+        }
+      },
+      "summary": {
+        "run_name": "demo_call02",
+        "arguments": {
+          "grouping_factor": 1,
+          "focus_row": 15,
+          "focus_col": 15,
+          "focus_height": 2,
+          "focus_width": 2,
+          "background_gap": 2,
+          "background_width": 3,
+          "iterations": 1200,
+          "flips_per_proposal": 1,
+          "averaging": 1,
+          "validation_count": 10,
+          "seed": 2,
+          "max_acquisitions": 1300
+        },
+        "validated_initial_enhancement_mean": 0.724450050234878,
+        "validated_initial_enhancement_std": 0.013301408398156252,
+        "validated_final_enhancement_mean": 70.78370397897507,
+        "validated_final_enhancement_std": 3.4616146349225354,
+        "validation_count": 10,
+        "enhancement_gain": 97.70681078153821,
+        "focus_intensity_gain": 5.736690844179352,
+        "background_suppression_factor": 16.99422210068924,
+        "share_of_log_gain_from_focus_brightening": 0.38143572642674267,
+        "share_of_log_gain_from_background_suppression": 0.6185642735732573,
+        "notes": [],
+        "camera_acquisitions": 1221,
+        "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+        "artifacts": {
+          "settings": "results/offline_demo/artifacts/demo_call02/settings.json",
+          "result": "results/offline_demo/artifacts/demo_call02/result.json",
+          "initial_camera_png": "results/offline_demo/artifacts/demo_call02/initial_camera.png",
+          "final_camera_png": "results/offline_demo/artifacts/demo_call02/final_camera.png",
+          "enhancement_history_png": "results/offline_demo/artifacts/demo_call02/enhancement_history.png",
+          "final_dmd_pattern_png": "results/offline_demo/artifacts/demo_call02/final_dmd_pattern.png",
+          "history_npz": "results/offline_demo/artifacts/demo_call02/history.npz"
+        }
+      }
+    }
+  ],
+  "orchestrator_decisions": [
+    "scientist",
+    "executor",
+    "executor",
+    "finish"
+  ],
+  "num_orchestrator_decisions": 4,
+  "tool_calls": 2,
+  "total_camera_acquisitions": 1842,
+  "session_camera_acquisitions": 1842,
+  "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e"
+}

@@ -1,0 +1,179 @@
+{
+  "ok": true,
+  "run_name": "demo_call01",
+  "run_dir": "results/offline_demo/artifacts/demo_call01",
+  "session": {
+    "dmd_shape": [
+      16,
+      16
+    ],
+    "camera_shape": [
+      32,
+      32
+    ],
+    "medium_seed": 7,
+    "noise": {
+      "enabled": true,
+      "photons_per_unit": 1000.0,
+      "read_noise_std": 0.01
+    },
+    "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+    "acquisition_limit_per_call": 2000,
+    "camera_acquisitions_so_far": 621,
+    "artifact_root": "results/offline_demo/artifacts",
+    "valid_grouping_factors": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ]
+  },
+  "arguments": {
+    "grouping_factor": 2,
+    "focus_row": 15,
+    "focus_col": 15,
+    "focus_height": 2,
+    "focus_width": 2,
+    "background_gap": 2,
+    "background_width": 3,
+    "iterations": 600,
+    "flips_per_proposal": 1,
+    "averaging": 1,
+    "validation_count": 10,
+    "seed": 1,
+    "max_acquisitions": 700
+  },
+  "regions": {
+    "focus": {
+      "row_start": 15,
+      "row_stop": 17,
+      "col_start": 15,
+      "col_stop": 17,
+      "name": "focus"
+    },
+    "backgrounds": [
+      {
+        "row_start": 10,
+        "row_stop": 13,
+        "col_start": 15,
+        "col_stop": 17,
+        "name": "top"
+      },
+      {
+        "row_start": 19,
+        "row_stop": 22,
+        "col_start": 15,
+        "col_stop": 17,
+        "name": "bottom"
+      },
+      {
+        "row_start": 15,
+        "row_stop": 17,
+        "col_start": 10,
+        "col_stop": 13,
+        "name": "left"
+      },
+      {
+        "row_start": 15,
+        "row_stop": 17,
+        "col_start": 19,
+        "col_stop": 22,
+        "name": "right"
+      }
+    ]
+  },
+  "objective": {
+    "definition": "enhancement = <I>_F / max(<I>_B, floor); <I>_B pixel-weighted over all background strips; floor = 0.05 x <I>_B of the initial search measurement",
+    "background_floor": 0.02107968446566731
+  },
+  "validated": {
+    "initial": {
+      "enhancement_mean": 0.6045080914743253,
+      "enhancement_std": 0.013428597464980041,
+      "enhancement_values": [
+        0.6278521690302089,
+        0.5883011139587637,
+        0.6015666098887629,
+        0.6028166439004754,
+        0.6108754739530887,
+        0.6078706988755682,
+        0.6133775799102816,
+        0.5944418678039093,
+        0.6175822154962164,
+        0.5803965419259778
+      ],
+      "focus_mean_intensity": 0.25064742661844375,
+      "background_mean_intensity": 0.4146613525400254,
+      "background_region_mean_intensities": [
+        0.445632815378958,
+        0.2860885388726933,
+        0.20318198989281844,
+        0.7237420660156318
+      ],
+      "background_floor_active": false
+    },
+    "final": {
+      "enhancement_mean": 13.77217682053671,
+      "enhancement_std": 0.4076437423389213,
+      "enhancement_values": [
+        13.34917508617915,
+        14.24475590562985,
+        14.18673465322067,
+        14.070410700970328,
+        13.349374657401592,
+        14.11789266174146,
+        13.370649920331276,
+        14.257628479445161,
+        13.3256750192891,
+        13.44947112115852
+      ],
+      "focus_mean_intensity": 0.9730001750402063,
+      "background_mean_intensity": 0.07070800484052285,
+      "background_region_mean_intensities": [
+        0.08214840801124954,
+        0.06330274110228105,
+        0.04875510896837217,
+        0.08862576128018863
+      ],
+      "background_floor_active": false
+    },
+    "enhancement_gain": 22.782452401832977,
+    "focus_intensity_gain": 3.881947595342312,
+    "background_suppression_factor": 5.864418794947845,
+    "decomposition": {
+      "basis": "mean validation images: gain = focus_intensity_gain * background_suppression_factor",
+      "image_enhancement_gain": 22.765366439128048,
+      "share_of_log_gain_from_focus_brightening": 0.4339944537824062,
+      "share_of_log_gain_from_background_suppression": 0.5660055462175937
+    },
+    "notes": []
+  },
+  "search": {
+    "note": "single noisy measurements that won comparisons; biased upward; not final results",
+    "initial_enhancement_single_measurement": 0.6339237238930714,
+    "best_observed_enhancement": 14.745888653185334,
+    "final_accepted_enhancement": 14.745888653185334,
+    "accepted_proposals": 47,
+    "iterations": 600
+  },
+  "acquisitions": {
+    "search": 601,
+    "validation": 20,
+    "total": 621,
+    "planned": 621,
+    "frames_per_measurement": 1,
+    "counted_by_bench": 621
+  },
+  "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+  "runtime_s": 2.5750611599996773,
+  "artifacts": {
+    "settings": "results/offline_demo/artifacts/demo_call01/settings.json",
+    "result": "results/offline_demo/artifacts/demo_call01/result.json",
+    "initial_camera_png": "results/offline_demo/artifacts/demo_call01/initial_camera.png",
+    "final_camera_png": "results/offline_demo/artifacts/demo_call01/final_camera.png",
+    "enhancement_history_png": "results/offline_demo/artifacts/demo_call01/enhancement_history.png",
+    "final_dmd_pattern_png": "results/offline_demo/artifacts/demo_call01/final_dmd_pattern.png",
+    "history_npz": "results/offline_demo/artifacts/demo_call01/history.npz"
+  }
+}

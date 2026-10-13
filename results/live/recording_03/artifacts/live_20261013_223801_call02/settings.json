@@ -1,0 +1,132 @@
+{
+  "tool_arguments": {
+    "grouping_factor": 1,
+    "focus_row": 13,
+    "focus_col": 13,
+    "focus_height": 6,
+    "focus_width": 6,
+    "background_gap": 2,
+    "background_width": 2,
+    "iterations": 800,
+    "flips_per_proposal": 2,
+    "averaging": 2,
+    "validation_count": 3,
+    "seed": 7,
+    "max_acquisitions": 1700
+  },
+  "run_name": "live_20261013_223801_call02",
+  "regions": {
+    "focus": {
+      "row_start": 13,
+      "row_stop": 19,
+      "col_start": 13,
+      "col_stop": 19,
+      "name": "focus"
+    },
+    "backgrounds": [
+      {
+        "row_start": 9,
+        "row_stop": 11,
+        "col_start": 13,
+        "col_stop": 19,
+        "name": "top"
+      },
+      {
+        "row_start": 21,
+        "row_stop": 23,
+        "col_start": 13,
+        "col_stop": 19,
+        "name": "bottom"
+      },
+      {
+        "row_start": 13,
+        "row_stop": 19,
+        "col_start": 9,
+        "col_stop": 11,
+        "name": "left"
+      },
+      {
+        "row_start": 13,
+        "row_stop": 19,
+        "col_start": 21,
+        "col_stop": 23,
+        "name": "right"
+      }
+    ]
+  },
+  "optimizer_settings": {
+    "grouping_factor": 1,
+    "iterations": 800,
+    "flips_per_proposal": 2,
+    "focus": {
+      "row_start": 13,
+      "row_stop": 19,
+      "col_start": 13,
+      "col_stop": 19,
+      "name": "focus"
+    },
+    "backgrounds": [
+      {
+        "row_start": 9,
+        "row_stop": 11,
+        "col_start": 13,
+        "col_stop": 19,
+        "name": "top"
+      },
+      {
+        "row_start": 21,
+        "row_stop": 23,
+        "col_start": 13,
+        "col_stop": 19,
+        "name": "bottom"
+      },
+      {
+        "row_start": 13,
+        "row_stop": 19,
+        "col_start": 9,
+        "col_stop": 11,
+        "name": "left"
+      },
+      {
+        "row_start": 13,
+        "row_stop": 19,
+        "col_start": 21,
+        "col_stop": 23,
+        "name": "right"
+      }
+    ],
+    "seed": 7,
+    "initial_pattern": null,
+    "averaging": 2,
+    "validation_count": 3,
+    "background_floor_fraction": 0.05,
+    "max_acquisitions": 1700
+  },
+  "session": {
+    "dmd_shape": [
+      16,
+      16
+    ],
+    "camera_shape": [
+      32,
+      32
+    ],
+    "medium_seed": 7,
+    "noise": {
+      "enabled": true,
+      "photons_per_unit": 1000.0,
+      "read_noise_std": 0.01
+    },
+    "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+    "acquisition_limit_per_call": 2000,
+    "camera_acquisitions_so_far": 2842,
+    "artifact_root": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_03/artifacts",
+    "valid_grouping_factors": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ]
+  }
+}

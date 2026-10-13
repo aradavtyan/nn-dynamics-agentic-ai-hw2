@@ -1,0 +1,34 @@
+[
+  {
+    "role": "user",
+    "text": "Focus the beam through the simulated scattering medium."
+  },
+  {
+    "role": "orchestrator",
+    "text": "{\"next_role\": \"scientist\", \"instruction\": \"Propose a first focusing experiment for this session.\", \"reason\": \"[mocked] a plan is needed before measuring\"}"
+  },
+  {
+    "role": "scientist",
+    "text": "[mocked scientist] Start with grouping factor 2 (64 macropixels), a central 2x2 focus, background strips 2 px away and 3 px wide, single flips, 600 iterations, 10 validation measurements. Then compare grouping factor 1. Report enhancement gain and focus intensity gain separately."
+  },
+  {
+    "role": "orchestrator",
+    "text": "{\"next_role\": \"executor\", \"instruction\": \"Run the scientist's first experiment.\", \"reason\": \"[mocked] a plan exists\"}"
+  },
+  {
+    "role": "executor",
+    "text": "EXPERIMENT_COMPLETED\ntool=FocusingSession.call (simulated bench) success=True\nrun_id=demo_call01\nsettings={\"averaging\": 1, \"background_gap\": 2, \"background_width\": 3, \"flips_per_proposal\": 1, \"focus_col\": 15, \"focus_height\": 2, \"focus_row\": 15, \"focus_width\": 2, \"grouping_factor\": 2, \"iterations\": 600, \"max_acquisitions\": 700, \"seed\": 1, \"validation_count\": 10}\nexecutor_rationale=[mocked] corrected: seed added\nvalidated_initial_enhancement=0.604508 (std 0.0134286, n=10)\nvalidated_final_enhancement=13.7722 (std 0.407644, n=10)\nenhancement_gain=22.7825  (local contrast vs. background strips)\nfocus_intensity_gain=3.88195  (absolute brightening of the focus)\nbackground_suppression_factor=5.86442\nlog_gain_share_focus/background=0.434/0.566\ncamera_acquisitions=621 (run total 621)\ntransmission_fingerprint=022370232fb2178e...\nartifacts:\n  settings=results/offline_demo/artifacts/demo_call01/settings.json\n  result=results/offline_demo/artifacts/demo_call01/result.json\n  initial_camera_png=results/offline_demo/artifacts/demo_call01/initial_camera.png\n  final_camera_png=results/offline_demo/artifacts/demo_call01/final_camera.png\n  enhancement_history_png=results/offline_demo/artifacts/demo_call01/enhancement_history.png\n  final_dmd_pattern_png=results/offline_demo/artifacts/demo_call01/final_dmd_pattern.png\n  history_npz=results/offline_demo/artifacts/demo_call01/history.npz\nSearch maxima are noisy and biased upward and are not reported here.\nearlier problems in this turn:\n  proposal 1: rejected before the tool call: missing argument(s): ['seed']"
+  },
+  {
+    "role": "orchestrator",
+    "text": "{\"next_role\": \"executor\", \"instruction\": \"Try finer control: grouping factor 1 with more iterations.\", \"reason\": \"[mocked] compare a finer macropixel grid on the same medium\"}"
+  },
+  {
+    "role": "executor",
+    "text": "EXPERIMENT_COMPLETED\ntool=FocusingSession.call (simulated bench) success=True\nrun_id=demo_call02\nsettings={\"averaging\": 1, \"background_gap\": 2, \"background_width\": 3, \"flips_per_proposal\": 1, \"focus_col\": 15, \"focus_height\": 2, \"focus_row\": 15, \"focus_width\": 2, \"grouping_factor\": 1, \"iterations\": 1200, \"max_acquisitions\": 1300, \"seed\": 2, \"validation_count\": 10}\nexecutor_rationale=[mocked] 256 macropixels, more iterations\nvalidated_initial_enhancement=0.72445 (std 0.0133014, n=10)\nvalidated_final_enhancement=70.7837 (std 3.46161, n=10)\nenhancement_gain=97.7068  (local contrast vs. background strips)\nfocus_intensity_gain=5.73669  (absolute brightening of the focus)\nbackground_suppression_factor=16.9942\nlog_gain_share_focus/background=0.381/0.619\ncamera_acquisitions=1221 (run total 1842)\ntransmission_fingerprint=022370232fb2178e...\nartifacts:\n  settings=results/offline_demo/artifacts/demo_call02/settings.json\n  result=results/offline_demo/artifacts/demo_call02/result.json\n  initial_camera_png=results/offline_demo/artifacts/demo_call02/initial_camera.png\n  final_camera_png=results/offline_demo/artifacts/demo_call02/final_camera.png\n  enhancement_history_png=results/offline_demo/artifacts/demo_call02/enhancement_history.png\n  final_dmd_pattern_png=results/offline_demo/artifacts/demo_call02/final_dmd_pattern.png\n  history_npz=results/offline_demo/artifacts/demo_call02/history.npz\nSearch maxima are noisy and biased upward and are not reported here."
+  },
+  {
+    "role": "orchestrator",
+    "text": "{\"next_role\": \"finish\", \"instruction\": \"Report the validated results.\", \"reason\": \"[mocked] two completed experiments on the same medium\"}"
+  }
+]

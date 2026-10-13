@@ -1,0 +1,16 @@
+FINAL REPORT (values from the focusing tool's independent validation measurements; simulated bench only)
+Selected experiment: run_id=live_20261013_222312_call02 (completed experiment with the highest validated final enhancement mean; 3 completed of 3 tool calls).
+Settings: {"averaging": 6, "background_gap": 2, "background_width": 4, "flips_per_proposal": 4, "focus_col": 14, "focus_height": 4, "focus_row": 14, "focus_width": 4, "grouping_factor": 2, "iterations": 240, "max_acquisitions": 1900, "seed": 7, "validation_count": 12}
+Validated enhancement: initial 0.9798 (std 0.00430728) -> final 3.63614 (std 0.0144217), 12 validation measurements each.
+Enhancement gain (local contrast): 3.71111x.
+Focus intensity gain (absolute brightening of the focus): 2.30044x.
+Background suppression factor: 1.61322x; share of log(enhancement gain) from focus brightening 63.5%, from background suppression 36.5%.
+Camera acquisitions: 1590 for this experiment, 3744 in the whole run.
+Artifacts: /home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call02/result.json (and 6 more in /home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call02)
+Limitations:
+- Simulated bench only: one fixed random complex Gaussian transmission matrix, a binary amplitude DMD and a shot/read-noise camera model; no real optics or hardware were used.
+- Enhancement is <I>_F / <I>_B against the proximal background strips chosen in the experiment settings, not against the whole camera frame.
+- Enhancement gain is a contrast improvement; it is not an increase of the focus intensity. The absolute brightening of the focus is the separate focus_intensity_gain, and the rest of the contrast improvement comes from suppressing the local background.
+- The tool does not test whether the focus is the brightest point of the camera frame; no such claim is made.
+- Values are means of the tool's independent validation measurements (std reported); the noisy search maxima are biased upward and are not reported as results.
+- The reported experiment was selected as the highest validated final enhancement among 3 completed experiments, which slightly favours a lucky validation set.

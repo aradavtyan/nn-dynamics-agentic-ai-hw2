@@ -1,0 +1,179 @@
+{
+  "ok": true,
+  "run_name": "live_20261013_222312_call01",
+  "run_dir": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call01",
+  "session": {
+    "dmd_shape": [
+      16,
+      16
+    ],
+    "camera_shape": [
+      32,
+      32
+    ],
+    "medium_seed": 7,
+    "noise": {
+      "enabled": true,
+      "photons_per_unit": 1000.0,
+      "read_noise_std": 0.01
+    },
+    "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+    "acquisition_limit_per_call": 2000,
+    "camera_acquisitions_so_far": 564,
+    "artifact_root": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts",
+    "valid_grouping_factors": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ]
+  },
+  "arguments": {
+    "grouping_factor": 4,
+    "focus_row": 13,
+    "focus_col": 13,
+    "focus_height": 6,
+    "focus_width": 6,
+    "background_gap": 2,
+    "background_width": 4,
+    "iterations": 120,
+    "flips_per_proposal": 2,
+    "averaging": 4,
+    "validation_count": 10,
+    "seed": 7,
+    "max_acquisitions": 1900
+  },
+  "regions": {
+    "focus": {
+      "row_start": 13,
+      "row_stop": 19,
+      "col_start": 13,
+      "col_stop": 19,
+      "name": "focus"
+    },
+    "backgrounds": [
+      {
+        "row_start": 7,
+        "row_stop": 11,
+        "col_start": 13,
+        "col_stop": 19,
+        "name": "top"
+      },
+      {
+        "row_start": 21,
+        "row_stop": 25,
+        "col_start": 13,
+        "col_stop": 19,
+        "name": "bottom"
+      },
+      {
+        "row_start": 13,
+        "row_stop": 19,
+        "col_start": 7,
+        "col_stop": 11,
+        "name": "left"
+      },
+      {
+        "row_start": 13,
+        "row_stop": 19,
+        "col_start": 21,
+        "col_stop": 25,
+        "name": "right"
+      }
+    ]
+  },
+  "objective": {
+    "definition": "enhancement = <I>_F / max(<I>_B, floor); <I>_B pixel-weighted over all background strips; floor = 0.05 x <I>_B of the initial search measurement",
+    "background_floor": 0.025592687872651294
+  },
+  "validated": {
+    "initial": {
+      "enhancement_mean": 1.1159306295075695,
+      "enhancement_std": 0.003881644373967647,
+      "enhancement_values": [
+        1.1225779465762784,
+        1.1173961717375969,
+        1.1186721516812266,
+        1.1140227912448182,
+        1.1179640158239712,
+        1.1067625388160343,
+        1.1142061444669946,
+        1.1147897265560915,
+        1.1167421527480144,
+        1.1161726554246703
+      ],
+      "focus_mean_intensity": 0.5726940914053824,
+      "background_mean_intensity": 0.5132010025122954,
+      "background_region_mean_intensities": [
+        0.8095045467656884,
+        0.45757162928050255,
+        0.5140647507209615,
+        0.271663083282029
+      ],
+      "background_floor_active": false
+    },
+    "final": {
+      "enhancement_mean": 1.5048552325381712,
+      "enhancement_std": 0.005924644275569774,
+      "enhancement_values": [
+        1.504482861585548,
+        1.5100926923414832,
+        1.505443622325538,
+        1.5012484875453436,
+        1.4936632578095628,
+        1.5065853917107634,
+        1.517378292067436,
+        1.504088696545531,
+        1.4999697715278597,
+        1.505599251922647
+      ],
+      "focus_mean_intensity": 0.488346107722611,
+      "background_mean_intensity": 0.3245150527932771,
+      "background_region_mean_intensities": [
+        0.5448095593784341,
+        0.2632262910038489,
+        0.27710139652805493,
+        0.21292296426277035
+      ],
+      "background_floor_active": false
+    },
+    "enhancement_gain": 1.3485204122430297,
+    "focus_intensity_gain": 0.8527172098531997,
+    "background_suppression_factor": 1.581439745536905,
+    "decomposition": {
+      "basis": "mean validation images: gain = focus_intensity_gain * background_suppression_factor",
+      "image_enhancement_gain": 1.3485208873651837,
+      "share_of_log_gain_from_focus_brightening": -0.5328523740696294,
+      "share_of_log_gain_from_background_suppression": 1.5328523740696292
+    },
+    "notes": []
+  },
+  "search": {
+    "note": "single noisy measurements that won comparisons; biased upward; not final results",
+    "initial_enhancement_single_measurement": 1.1181370581554655,
+    "best_observed_enhancement": 1.5317581471493158,
+    "final_accepted_enhancement": 1.5317581471493158,
+    "accepted_proposals": 8,
+    "iterations": 120
+  },
+  "acquisitions": {
+    "search": 484,
+    "validation": 80,
+    "total": 564,
+    "planned": 564,
+    "frames_per_measurement": 4,
+    "counted_by_bench": 564
+  },
+  "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+  "runtime_s": 1.975212379000368,
+  "artifacts": {
+    "settings": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call01/settings.json",
+    "result": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call01/result.json",
+    "initial_camera_png": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call01/initial_camera.png",
+    "final_camera_png": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call01/final_camera.png",
+    "enhancement_history_png": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call01/enhancement_history.png",
+    "final_dmd_pattern_png": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call01/final_dmd_pattern.png",
+    "history_npz": "/home/ara/Desktop/AI-Course-homeworks/homework_2/results/live/recording_02/artifacts/live_20261013_222312_call01/history.npz"
+  }
+}

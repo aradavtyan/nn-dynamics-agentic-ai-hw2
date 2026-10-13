@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+*.mat
+*.pt
+*.npy
+SilverboxFiles/
+runs/
+.DS_Store
+/report/homework2.pdf
+/results/live/recording_01/

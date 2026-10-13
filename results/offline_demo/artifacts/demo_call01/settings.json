@@ -1,0 +1,132 @@
+{
+  "tool_arguments": {
+    "grouping_factor": 2,
+    "focus_row": 15,
+    "focus_col": 15,
+    "focus_height": 2,
+    "focus_width": 2,
+    "background_gap": 2,
+    "background_width": 3,
+    "iterations": 600,
+    "flips_per_proposal": 1,
+    "averaging": 1,
+    "validation_count": 10,
+    "seed": 1,
+    "max_acquisitions": 700
+  },
+  "run_name": "demo_call01",
+  "regions": {
+    "focus": {
+      "row_start": 15,
+      "row_stop": 17,
+      "col_start": 15,
+      "col_stop": 17,
+      "name": "focus"
+    },
+    "backgrounds": [
+      {
+        "row_start": 10,
+        "row_stop": 13,
+        "col_start": 15,
+        "col_stop": 17,
+        "name": "top"
+      },
+      {
+        "row_start": 19,
+        "row_stop": 22,
+        "col_start": 15,
+        "col_stop": 17,
+        "name": "bottom"
+      },
+      {
+        "row_start": 15,
+        "row_stop": 17,
+        "col_start": 10,
+        "col_stop": 13,
+        "name": "left"
+      },
+      {
+        "row_start": 15,
+        "row_stop": 17,
+        "col_start": 19,
+        "col_stop": 22,
+        "name": "right"
+      }
+    ]
+  },
+  "optimizer_settings": {
+    "grouping_factor": 2,
+    "iterations": 600,
+    "flips_per_proposal": 1,
+    "focus": {
+      "row_start": 15,
+      "row_stop": 17,
+      "col_start": 15,
+      "col_stop": 17,
+      "name": "focus"
+    },
+    "backgrounds": [
+      {
+        "row_start": 10,
+        "row_stop": 13,
+        "col_start": 15,
+        "col_stop": 17,
+        "name": "top"
+      },
+      {
+        "row_start": 19,
+        "row_stop": 22,
+        "col_start": 15,
+        "col_stop": 17,
+        "name": "bottom"
+      },
+      {
+        "row_start": 15,
+        "row_stop": 17,
+        "col_start": 10,
+        "col_stop": 13,
+        "name": "left"
+      },
+      {
+        "row_start": 15,
+        "row_stop": 17,
+        "col_start": 19,
+        "col_stop": 22,
+        "name": "right"
+      }
+    ],
+    "seed": 1,
+    "initial_pattern": null,
+    "averaging": 1,
+    "validation_count": 10,
+    "background_floor_fraction": 0.05,
+    "max_acquisitions": 700
+  },
+  "session": {
+    "dmd_shape": [
+      16,
+      16
+    ],
+    "camera_shape": [
+      32,
+      32
+    ],
+    "medium_seed": 7,
+    "noise": {
+      "enabled": true,
+      "photons_per_unit": 1000.0,
+      "read_noise_std": 0.01
+    },
+    "transmission_fingerprint": "022370232fb2178eb47d912c3a416eab1ee9978bd80d13a156570b74e7f7545e",
+    "acquisition_limit_per_call": 2000,
+    "camera_acquisitions_so_far": 621,
+    "artifact_root": "results/offline_demo/artifacts",
+    "valid_grouping_factors": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ]
+  }
+}

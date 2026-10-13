@@ -1,0 +1,11 @@
+{
+  "task": "silverbox",
+  "run_id": "w32_lr0.001_h32",
+  "provenance": "Ara Davtyan, Homework 1 selected model; copied from results/best.json",
+  "configuration": "3 \u2192 32 \u2192 32 \u2192 1, tanh, Adam, learning rate 0.001, rollout 32",
+  "train_rmse": 0.002332453578115664,
+  "test_rmse": 0.008616101247742852,
+  "units": "V",
+  "verification": "Recorded Homework 1 result; not rerun in Homework 2",
+  "source_file": "results/silverbox_reference.json"
+}
