@@ -110,8 +110,9 @@ python report/build.py
 The report uses the title, student name and clean layout of Homework 1.
 The report includes both completed live Task 2 sessions and their camera images;
 recording_03 is the main session. To finish the assignment, add the real Task 1
-questions, replies and next messages, the lecture comparison, and the recording.
-The lecture result was not supplied, so no numerical comparison is claimed.
+questions, replies and next messages, and the recording.
+The report compares the best simulated enhancement of 9.93 with the lecture’s
+approximate experimental best of 33, noting the limits of this comparison.
 Send one PDF as requested in the assignment. The PDF is built locally and is
 ignored by Git, like Homework 1's submission PDF.
 
